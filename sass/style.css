@@ -1,0 +1,310 @@
+#slideDown {
+  display: none; }
+
+body {
+        margin-bottom: -2px;
+    margin-right: -2px;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: "";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px; }
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)), url(../img/hero.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  header a {
+    color: #fff !important; }
+  header .logo-img {
+    width: 180px; }
+  header .collapse {
+    justify-content: flex-end; }
+  header .navbar-nav {
+    float: right; }
+  header .jumbotron {
+    background: none !important;
+    color: #fff; }
+  header .btn-full {
+    background-color: #e67e22;
+    border-color: #e67e22 !important;
+    border-radius: 50px !important;
+    color: #fff; }
+    header .btn-full:hover {
+      background-color: #e67e22;
+      color: #fff; }
+  header .btn-ghost {
+    color: #e67e22;
+    border: 1px solid #e67e22;
+    border-radius: 50px; }
+    header .btn-ghost:hover {
+      color: #fff;
+      background-color: #e67e22; }
+
+.flex-items {
+  display: flex;
+  margin: 0 auto; }
+  .flex-items h3 {
+    font-size: 20px; }
+
+.Allrecipes li {
+  overflow: hidden; }
+
+.Allrecipes .recipes {
+  list-style-type: none;
+  display: flex;
+  background-color: #000; }
+  .Allrecipes .recipes img {
+    width: 100%;
+    opacity: 0.7;
+    transform: scale(1.15);
+    background: white;
+    transition: transform 0.5s, opacity 0.5s; }
+    .Allrecipes .recipes img:hover {
+      opacity: 1;
+      transform: scale(1.09); }
+
+.junkFoodSection {
+  margin-top: -35px; }
+
+.section-works {
+  background-color: #f4f4f4; }
+
+.works {
+  display: flex;
+  justify-content: center; }
+  .works .iphone-img {
+    float: left; }
+    .works .iphone-img img {
+      width: 162px; }
+  .works .descrip {
+    display: flex;
+    margin: 16px;
+    padding-left: 50px; }
+    .works .descrip div {
+      color: #e67e22;
+      border: 2px solid #e67e22;
+      display: inline-block;
+      border-radius: 50%;
+      height: 59px;
+      width: 53px;
+      text-align: center;
+      padding: 5px;
+      float: left;
+      font-size: 150%;
+      margin-right: 25px; }
+
+.clearfix {
+  clear: both; }
+
+.icon-big {
+  color: #e67e22;
+  font-size: 50px; }
+
+.icon-small {
+  color: #e67e22;
+  padding: 2px; }
+
+.download-logo .btn-app img {
+  width: auto;
+  height: 50px; }
+
+.cities {
+  display: flex; }
+
+.city-lisbon img {
+  width: 100%; }
+
+.city-lisbon a {
+  color: #e67e22; }
+  .city-lisbon a:hover {
+    text-decoration: none; }
+
+.our-customers {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/back-customers.jpg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  .our-customers cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle; }
+  .our-customers p {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    margin-top: 40px; }
+    .our-customers p::before {
+      content: "\201C";
+      font-size: 500%;
+      position: absolute;
+      top: 22px;
+      left: 16px; }
+
+.healthy {
+  background-color: #f4f4f4; }
+
+.price-meal {
+  justify-content: center; }
+
+.plan-priceDescription {
+  font-size: 300%;
+  color: #e67e22;
+  margin-bottom: 2px; }
+  .plan-priceDescription span {
+    font-size: 30%; }
+
+.list {
+  background-color: #fff;
+  padding: 2px;
+  border: 1px solid #fff;
+  line-height: 2; }
+  .list ul {
+    list-style-type: none;
+    padding: 0; }
+
+.signup {
+  border-top: 1px solid #e8e8e8;
+  padding: 10px; }
+
+.btn-signup {
+  border: 1px solid #e67e22;
+  border-radius: 50px;
+  background: #e67e22;
+  color: #fff;
+  border: 1px solid #fff; }
+  .btn-signup:hover {
+    color: #fff; }
+
+.btn-sign {
+  border-radius: 50px;
+  color: #e67e22;
+  border: 1px solid #e67e22; }
+  .btn-sign:hover {
+    color: #fff;
+    background-color: #e67e22; }
+
+.plan-price-sub {
+  background: #fff; }
+
+.details-des {
+  background-color: #ededed;
+  padding-left: 10px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px; }
+
+.plan-price-sub {
+  margin-bottom: 46px; }
+  .plan-price-sub div:last-child {
+    text-align: center; }
+
+footer {
+  background-color: #333;
+  color: #888;
+  padding-bottom: 13px;
+  padding-top: 13px; }
+  footer .all-list a {
+    color: #888; }
+  footer .all-list .footer-list ul {
+    float: left; }
+    footer .all-list .footer-list ul a:hover {
+      text-decoration: none;
+      color: #fff; }
+  footer .all-list .social-links ul {
+    float: right; }
+    footer .all-list .social-links ul a .ion-social-facebook:hover {
+      text-decoration: none;
+      color: #3b5998; }
+    footer .all-list .social-links ul a .ion-social-twitter:hover {
+      text-decoration: none;
+      color: #00aced; }
+    footer .all-list .social-links ul a .ion-social-instagram:hover {
+      text-decoration: none;
+      color: #517fa4; }
+    footer .all-list .social-links ul a .ion-social-googleplus:hover {
+      text-decoration: none;
+      color: #dd4b39; }
+  footer ul {
+    list-style-type: none;
+    display: flex; }
+    footer ul li {
+      padding: 7px; }
+
+.copyright {
+  text-align: center;
+  color: #888; }
+
+form {
+  display: flex;
+  justify-content: center; }
+
+#name {
+  width: 400px; }
+
+#email {
+  width: 400px; }
+
+#new {
+  width: none !important; }
+
+#find-us {
+  width: 400px; }
+
+textarea {
+  width: 400px; }
+
+
+.slidedown {
+   animation-name: moveInBottom;
+animation-duration: 1s;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes moveInBottom {
+  0%{
+      opacity: 0;
+      transform: translateY(100px);
+
+  }
+
+
+
+
+  100%{
+     opacity: 1;
+      transform: translate(0);
+
+
+  }
+
+}
+
+
+
+@keyframes moveInTop {
+  100%{
+      opacity: 0;
+      transform: translateY(100px);
+
+  }
+
+
+
+
+  0%{
+     opacity: 1;
+      transform: translate(0);
+
+
+  }
+
+}

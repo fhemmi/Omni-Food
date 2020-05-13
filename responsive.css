@@ -1,0 +1,117 @@
+  @media screen and (max-width:660px) {
+
+
+   
+      
+     header .nav-header {
+       background-color: #fff;
+       background-attachment: fixed;
+     }
+
+
+     header .logo-img1 {
+      width: 63px;
+   }
+
+
+   .works {
+      display: inline-block !important;
+   }
+
+   .works .iphone-img {
+    float: none !important;
+    text-align: center;
+
+
+  }
+
+  .works .descrip {
+    padding-left: 0 !important;
+  }
+
+
+
+.cities {
+    display: inline-block !important;
+  }
+
+  #name {
+    width: 250px !important;
+  }
+  #email {
+    width: 250px !important;
+
+  }
+
+  #new {
+    width: none!important;
+  }
+
+  #find-us {
+    width: 250px !important;
+  }
+  textarea{
+    width: 250px !important;
+  }
+
+
+.all-form {
+  text-align: center;
+}
+
+.text-left {
+    text-align:center !important;
+}
+
+}
+
+
+
+
+
+
+ @media screen and (max-width:991px) {
+     
+  
+     
+    header .nav-header {
+      background-color: #fff;
+      background-attachment: fixed;
+        
+       
+    }
+     
+     .navbar-light .navbar-nav .nav-link {
+         color: black !important;
+         text-align: left;
+     }
+
+    header .logo-img {
+      width: 63px !important;
+    }
+
+    .works .iphone-img {
+     float: none !important;
+     text-align: center;
+
+
+   }
+
+/*
+   .works {
+      display: inline-block !important;
+   }
+*/
+
+
+   .works .descrip {
+     padding-left: 0 !important;
+   }
+
+   .cities {
+     padding: 20px !important;
+   }
+
+
+
+}
