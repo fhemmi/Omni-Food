@@ -1,5 +1,6 @@
 #slideDown {
-  display: none; }
+    display: none;
+}
 
 body {
         margin-bottom: -2px;
@@ -33,6 +34,7 @@ header {
     background: none !important;
     color: #fff; }
   header .btn-full {
+      margin: 8px;
     background-color: #e67e22;
     border-color: #e67e22 !important;
     border-radius: 50px !important;
